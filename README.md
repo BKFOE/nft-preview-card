@@ -1,12 +1,14 @@
 # Frontend Mentor - NFT preview card component solution
 
-This is a solution to the [NFT preview card component challenge on Frontend Mentor]. Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the NFT preview card component challenge on Frontend Mentor.
 
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Prerequisities] (#prerequisites)
+  - [Setup] (#setup)
   - [Links](#links)
 - [My process](#my-process)
   - [What I learned](#what-i-learned)
@@ -16,7 +18,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### The challenge
 
-Users should be able to:
+Users can:
 
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
@@ -27,12 +29,35 @@ Users should be able to:
 ![Mobile](./public/images/Mobile.png)
 ![Hover](./public/images/Hover.png)
 
+### Prerequisites 
+
+- Node.js and npm installed on your machine 
+
+### Setup 
+
+1. Clone the repository: 
+
+git clone 
+
+2. Navigate to the project directory:
+
+cd nft-preview-card-component
+
+3. Install the necessary dependencies:
+
+npm install 
+
+4. Run the development server and view project locally:
+
+npm run dev 
+
 ### Links
 
 - Solution URL: (https://www.frontendmentor.io/solutions/nft-preview-card-3MWB_Q-tZT)
 - Live Site URL: (https://bkfoe.github.io/nft-preview-card/)
 
 ## My process
+
 ### What I learned
 
 This project required in the active state there was an image and background overlay on top of the main card image. Originally I thought about layering two div blocks and using the display settings to set one to none and then on hover setting it to block but I decided to use the invisible utility as I didnt want to remove the element from the page layout, I just wanted it to be invisible until the user hovered on the element.  
